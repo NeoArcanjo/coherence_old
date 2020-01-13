@@ -4,7 +4,7 @@ before_script:
   - mysql -c 'create database coherence_test;' -U root
 language: elixir
 elixir:
-  - 1.9.2
+  - 1.7
 otp_release:
   - 22.0
 matrix:
